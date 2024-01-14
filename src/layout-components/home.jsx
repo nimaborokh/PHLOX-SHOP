@@ -6,10 +6,12 @@ import ShopCategory from "../components/shopCatrgory";
 import Sponser from "../components/sponser";
 import container from "../layout-css/containerBox.module.css";
 import Footer from "./footer";
+import Navbar from "./navbar";
 
 const Home = () => {
     return (
         <div>
+            <Navbar />
             <div
                 className={container.containerBox}
                 style={{ display: "flex", flexDirection: "column" }}

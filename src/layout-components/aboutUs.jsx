@@ -1,5 +1,14 @@
+import Navbar from "./navbar";
+
 const AboutUs = () => {
-    return ( <h1>AboutUs</h1> );
-}
- 
+    return (
+        <div>
+            <Navbar />
+            <div>
+                <h1>AboutUs</h1>
+            </div>
+        </div>
+    );
+};
+
 export default AboutUs;

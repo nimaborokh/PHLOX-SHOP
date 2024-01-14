@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vw;
+    font-size: 5vw;
+    flex-direction: column;
+    gap: 2vw;
+}
+.container span {
+    font-size: 2vw;
+}
+.container a {
+    font-size: 2vw;
+    background-color: #999;
+    border-radius: 60px;
+    padding: 2vw;
+    color: white;
+}
