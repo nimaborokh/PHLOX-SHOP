@@ -1,0 +1,54 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vw;
+}
+.container h1 {
+    font-size: 2.5vw;
+    text-align: center;
+}
+.container .span {
+    color: #999;
+    font-size: 1vw;
+    margin: 1vw 0 3vw 0;
+    text-align: center;
+}
+.container .cards {
+    display: flex;
+    gap: 1vw;
+    width: 100%;
+    overflow: scroll;
+    flex-direction: row;
+}
+.container .cards::-webkit-scrollbar{
+    display: none;
+}
+.container .cards .card {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    width: 30%;
+}
+.container .cards .card img {
+    height: 13vw;
+    border-radius: 10px;
+}
+.container .cards .card .contents {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.container .cards .card .contents span {
+    color: #999;
+    font-size: 1vw;
+}
+.container .cards .card .contents strong {
+    font-weight: bolder;
+    font-size: 1.7vw;
+}
+.container .cards .card .contents p {
+    margin: 0;
+    color: #616161;
+    font-size: 1vw;
+}

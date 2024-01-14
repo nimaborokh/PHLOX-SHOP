@@ -1,0 +1,51 @@
+.container {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0vw;
+    width: 100%;
+    margin: 10vw 0;
+    border-radius: 10px;
+    padding: 3vw 0;
+}
+.container img {
+    position: absolute;
+    width: 30vw;
+    left: 20%;
+    bottom: 15%;
+    filter: drop-shadow(20px 20px 15px black);
+}
+.container .left {
+    color: white;
+}
+.container .left span {
+    color: rgba(255, 255, 255, 0.728);
+    font-size: 1.3vw;
+    margin-left: 0.7vw;
+}
+.container .left h1 {
+    font-size: 10vw;
+    line-height: 0.8;
+    width: 60%;
+}
+.container .right {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    width: 26%;
+    gap: 0.7vw;
+}
+.container .right span {
+    font-size: 1.3vw;
+}
+.container .right h3 {
+    font-size: 4vw;
+}
+.container .right caption {
+    text-align: left;
+    font-size: 0.9vw;
+    color: rgba(255, 255, 255, 0.726);
+}
+.container .right a:hover {
+}

@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    gap: 0.4vw;
+}
+.container .imgcard {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ededed;
+    border-radius: 10px;
+    padding: 2vw 3vw;
+}
+.container .imgcard span {
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2vw;
+    color: white;
+    border-radius: 60px;
+    background-color: red;
+    height: 3vw;
+    width: 3vw;
+}
+.container .imgcard img {
+    width: 15vw;
+}
+.container span {
+    font-size: 1.2vw;
+}
+.container .price {
+    display: flex;
+    gap: 1vw;
+}
+.container .price del {
+    color: #d2d2d2;
+    font-size: 1vw;
+}
+.container .price ins {
+    font-size: 1.3vw;
+    color: black;
+    text-decoration: none;
+}

@@ -1,0 +1,110 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 5vw;
+}
+.container .phlox {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.container .phlox h1 {
+    color: rgb(241, 69, 69);
+    font-family: serif;
+    font-size: 2vw;
+}
+.container .phlox p {
+    font-size: 1vw;
+    color: #999;
+}
+.container .phlox .brands {
+    display: flex;
+    gap: 1.3vw;
+}
+.container .phlox .brands a {
+    font-size: 1.7vw;
+    text-decoration: none;
+    color: black;
+}
+.container .links {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.container .links h2 {
+    font-size: 1.5vw;
+    margin-bottom: 2vw;
+}
+.container .links a {
+    color: black;
+    margin-bottom: 0.7vw;
+    font-size: 1.2vw;
+    color: rgb(53, 53, 53);
+}
+.container .contants {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.container .contants h2 {
+    font-size: 1.5vw;
+    margin-bottom: 2vw;
+}
+.container .contants a {
+    color: rgb(53, 53, 53);
+    font-size: 1.2vw;
+}
+.container .contants p {
+    color: rgb(53, 53, 53);
+    font-size: 1.2vw;
+
+    font-size: 1vw;
+}
+.container .email {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    gap: 1vw;
+}
+.container .email h2 {
+    font-size: 1.5vw;
+}
+.container .email h1 {
+    font-size: 2.5vw;
+}
+.container .email .inputs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(247, 247, 247);
+    background: linear-gradient(
+        83deg,
+        rgba(247, 247, 247, 1) 0%,
+        rgba(196, 196, 196, 1) 100%
+    );
+    border-radius: 60px;
+}
+.container .email .inputs input {
+    border: none;
+    background-color: #99999900;
+    padding: 1.5vw;
+    font-size: 1vw;
+    width: 80%;
+}
+.container .email .inputs input:focus {
+   outline: none;
+}
+.container .email .inputs button {
+    font-size: 1vw;
+    border: none;
+    background-color: red;
+    border-radius: 60px;
+    color: white;
+    height: 3.2vw;
+    width: 10vw;
+    margin-right: 0.7vw;
+    cursor: pointer;
+}

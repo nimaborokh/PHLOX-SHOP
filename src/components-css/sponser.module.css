@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 14vw;
+    margin-bottom: 5vw;
+    background: rgb(196, 196, 196);
+    background: linear-gradient(
+        126deg,
+        rgba(196, 196, 196, 1) 0%,
+        rgba(247, 247, 247, 1) 100%
+    );
+}
+.containerBox {
+    display: flex;
+    width: 100%;
+    height: 10vw;
+    margin: 0 20px;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.container .containerBox img {
+    width: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+.container .containerBox .item {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    gap: 20vw;
+    position: absolute;
+    animation: linear infinite;
+    animation-name: run;
+    animation-duration: 45s;
+}
+@keyframes run {
+    0% {
+        left: -120%;
+    }
+    50% {
+        left: 10%;
+    }
+    100% {
+        left: -120%;
+    }
+}

@@ -1,0 +1,76 @@
+.baner {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(
+        90deg,
+        rgba(210, 210, 210, 1) 0%,
+        rgba(187, 187, 187, 1) 55%,
+        rgba(242, 242, 242, 1) 100%
+    );
+    border-radius: 10px;
+    height: 38vw;
+    width: 100%;
+}
+.item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    gap: 1vw;
+    box-sizing: border-box;
+}
+.item h3 {
+    margin-left: 10px;
+    font-size: 1.2vw;
+    cursor: default;
+}
+.item h2 {
+    font-size: 3vw;
+    margin-left: 10px;
+    cursor: default;
+}
+.item h1 {
+    color: #ffffff;
+    font-size: 14vw;
+    width: fit-content;
+    line-height: 0.8;
+    cursor: default;
+}
+.item img {
+    position: absolute;
+    height: 35vw;
+    width: fit-content;
+    left: 30%;
+    filter: drop-shadow(2.3vw 4vw 2.1vw rgba(10, 10, 10, 0.7));
+}
+.item button {
+    margin-left: 10px;
+}
+.item a:hover {
+    background-color: #ffffff !important;
+    color: black !important;
+}
+.item span {
+    align-self: flex-end;
+    font-size: 1.2vw;
+    cursor: default;
+}
+.item p {
+    align-self: flex-end;
+    width: 30%;
+    text-align: end;
+    font-size: 0.8vw;
+    color: #646464;
+    cursor: default;
+}
+.shadow {
+    position: absolute;
+    left: 44%;
+    bottom: 10%;
+    width: 10vw;
+    height: 1.5vw;
+    box-shadow: 3vw 3vw 1.7vw 2px;
+    border-radius: 50%;
+    transform: rotate(-4deg);
+}

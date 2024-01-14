@@ -1,0 +1,289 @@
+.dadContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2vw;
+    margin: 1vw;
+}
+.container {
+    display: flex;
+    width: 100%;
+    margin: 1vw;
+    gap: 1vw;
+    margin: 0;
+}
+.container .left1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1vw;
+}
+.container .left1 .up {
+    display: flex;
+    width: 100%;
+    gap: 1vw;
+}
+.container .left1 .up .left2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background: linear-gradient(
+        126deg,
+        rgba(12, 12, 12, 1) 75%,
+        rgba(79, 78, 75, 1) 100%
+    );
+    color: white;
+    padding: 5vw 5vw 2.5vw 2vw;
+    border-radius: 10px;
+    box-sizing: border-box;
+    gap: 0.6vw;
+}
+.container .left1 .up .left2 span {
+    font-size: 1vw;
+    color: rgba(255, 255, 255, 0.829);
+}
+.container .left1 .up .left2 h2 {
+    font-size: 2.6vw;
+}
+.container .left1 .up .left2 h1 {
+    color: rgba(255, 255, 255, 0.299);
+    font-size: 4vw;
+}
+.container .left1 .up .left2 a {
+    z-index: 2;
+}
+.container .left1 .up .left2 img {
+    position: absolute;
+    width: 20vw;
+    bottom: 0;
+    right: 0;
+}
+.container .left1 .up .right2 {
+    position: relative;
+    display: flex;
+    width: 50%;
+    background-color: #fdc62e;
+    border-radius: 10px;
+    flex-direction: column;
+    color: white;
+    padding: 5vw 5vw 2.5vw 2vw;
+    border-radius: 10px;
+    box-sizing: border-box;
+    gap: 0.6vw;
+}
+.container .left1 .up .right2 span {
+    font-size: 1vw;
+    color: rgba(255, 255, 255, 0.829);
+}
+.container .left1 .up .right2 h2 {
+    font-size: 2.6vw;
+}
+.container .left1 .up .right2 h1 {
+    color: rgba(255, 255, 255, 0.299);
+    font-size: 4vw;
+}
+.container .left1 .up .right2 img {
+    position: absolute;
+    right: 0;
+    top: 10%;
+    width: 13vw;
+}
+.container .left1 .bottom {
+    position: relative;
+    display: flex;
+    width: 100%;
+    background-color: #ededed;
+    border-radius: 10px;
+    flex-direction: column;
+    color: black;
+    padding: 2.5vw 3.7vw 5vw 3.7vw;
+    border-radius: 10px;
+    box-sizing: border-box;
+    gap: 0.6vw;
+    overflow: hidden;
+}
+.container .left1 .bottom span {
+    font-size: 1vw;
+    color: rgba(0, 0, 0, 0.781);
+}
+.container .left1 .bottom h2 {
+    font-size: 2.6vw;
+}
+.container .left1 .bottom h1 {
+    color: rgb(255, 255, 255);
+    font-size: 4vw;
+}
+.container .left1 .bottom img {
+    position: absolute;
+    width: 28vw;
+    right: 0;
+    top: -3vw;
+}
+.container .right1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1vw;
+}
+.container .right1 .up {
+    position: relative;
+    display: flex;
+    width: 100%;
+    background-color: #f42c37;
+    border-radius: 10px;
+    flex-direction: column;
+    color: white;
+    padding: 5vw 3.7vw 2.5vw 3.7vw;
+    border-radius: 10px;
+    box-sizing: border-box;
+    gap: 0.6vw;
+}
+.container .right1 .up span {
+    font-size: 1vw;
+    color: rgba(255, 255, 255, 0.781);
+}
+.container .right1 .up h2 {
+    font-size: 2.6vw;
+}
+.container .right1 .up h1 {
+    color: rgba(255, 255, 255, 0.299);
+
+    font-size: 4vw;
+}
+.container .right1 .up img {
+    position: absolute;
+    width: 25vw;
+    right: 6%;
+    bottom: 5%;
+}
+.container .right1 .bottom {
+    display: flex;
+    width: 100%;
+    gap: 1vw;
+}
+.container .right1 .bottom .left2 {
+    position: relative;
+    display: flex;
+    width: 50%;
+    background-color: #2cd06f;
+    flex-direction: column;
+    color: white;
+    padding: 2.5vw 5vw 5vw 2vw;
+    border-radius: 10px;
+    box-sizing: border-box;
+    gap: 0.6vw;
+    overflow: hidden;
+}
+.container .right1 .bottom .left2 span {
+    font-size: 1vw;
+    color: rgba(255, 255, 255, 0.829);
+}
+.container .right1 .bottom .left2 h2 {
+    font-size: 2.6vw;
+}
+.container .right1 .bottom .left2 h1 {
+    color: rgba(255, 255, 255, 0.299);
+    font-size: 4vw;
+}
+.container .right1 .bottom .left2 img {
+    position: absolute;
+    width: 15vw;
+    right: -1vw;
+    bottom: -5vw;
+}
+.container .right1 .bottom .right2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: #1779fe;
+    color: white;
+    padding: 2.5vw 5vw 5vw 2vw;
+    border-radius: 10px;
+    box-sizing: border-box;
+    gap: 0.6vw;
+}
+.container .right1 .bottom .right2 span {
+    font-size: 1vw;
+    color: rgba(255, 255, 255, 0.829);
+}
+.container .right1 .bottom .right2 h2 {
+    font-size: 2.6vw;
+}
+.container .right1 .bottom .right2 h1 {
+    color: rgba(255, 255, 255, 0.299);
+    font-size: 4vw;
+}
+.container .right1 .bottom .right2 img {
+    position: absolute;
+    width: 15vw;
+    right: 0;
+    bottom: 0;
+}
+.container .left1 .up .left2 a:hover {
+    background-color: white !important;
+    color: black !important;
+}
+.container .left1 .up .right2 a:hover {
+    background-color: #2cd06f !important;
+    color: white !important;
+}
+.container .left1 .bottom a:hover {
+    background-color: white !important;
+    color: black !important;
+}
+.container .right1 .up a:hover {
+    background-color: #1779fe !important;
+    color: white !important;
+}
+.container .right1 .bottom .left2 a:hover {
+    background-color: red !important;
+    color: white !important;
+}
+.container .right1 .bottom .right2 a:hover {
+    background-color: #fdc62e !important;
+    color: black !important;
+}
+.dadContainer .option {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    gap: 2vw;
+    box-sizing: border-box;
+}
+.dadContainer .option .items {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.dadContainer .option .items i {
+    font-size: 2.5vw;
+    color: red;
+}
+.dadContainer .option .items  div {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    gap: 0.5vw;
+}
+.dadContainer .option .items div h5 {
+    font-size:1.2vw ;
+}
+.dadContainer .option .items div span {
+    font-size: 0.9vw;
+    color: #999;
+    font-weight: lighter !important;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .container .left1 {
+        width: 100%;
+    }
+    .container .right1 {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+}
