@@ -6,6 +6,7 @@ const ProductCard = ({
     productName,
     Previousprice,
     currentprice,
+    color,
 }) => {
     return (
         <div className={productCardstyle.container}>
@@ -13,10 +14,10 @@ const ProductCard = ({
                 {off ? <span>{off}</span> : null}
                 <img src={imgsrc} alt="" />
             </Link>
-            <span>{productName}</span>
-            <div className={productCardstyle.price}>
+            <span style={{ color: color }}>{productName}</span>
+            <div style={{ color: color }} className={productCardstyle.price}>
                 {off ? <del>{Previousprice}</del> : null}
-                <ins>{currentprice}</ins>
+                <ins style={{ color: color }}>{currentprice}</ins>
             </div>
         </div>
     );

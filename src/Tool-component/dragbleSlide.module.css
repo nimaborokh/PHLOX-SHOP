@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 3vw 0;
+}
+.container h1{
+    margin: 2vw 0;
+    text-align: center;
+    color: red;
+    
+}
+.container .cards {
+    background-color: red;
+    gap: 2vw;
+    padding: 3vw ;
+    border-radius: 10px;
+    display: flex;
+
+    overflow: scroll;
+}
+.cards::-webkit-scrollbar {
+    display: none;
+}

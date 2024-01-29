@@ -87,7 +87,7 @@
     );
     border-radius: 60px;
 }
-.container .email .inputs input {
+.container .email .inputs input:first-child {
     border: none;
     background-color: #99999900;
     padding: 1.5vw;
@@ -95,16 +95,19 @@
     width: 80%;
 }
 .container .email .inputs input:focus {
-   outline: none;
+    outline: none;
 }
-.container .email .inputs button {
+.container .email .inputs .submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    width: 10vw;
+    height: 3.2vw;
     font-size: 1vw;
     border: none;
-    background-color: red;
     border-radius: 60px;
-    color: white;
-    height: 3.2vw;
-    width: 10vw;
     margin-right: 0.7vw;
     cursor: pointer;
 }

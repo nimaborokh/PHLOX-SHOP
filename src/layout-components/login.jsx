@@ -10,11 +10,18 @@ const Login = () => {
     const forc = useForceUpdate();
     return (
         <div className={loginstyle.container}>
+            <Link className={loginstyle.a} to="/">
+                {" "}
+                <i className="fa-solid fa-angle-left" ></i> Back Home
+            </Link>
             <form action="">
                 <h1>PHLOX</h1>
                 <div className={loginstyle.items}>
                     <h2>
-                        <Link to="/login" onClick={forc}>Login</Link> |{" "}
+                        <Link to="/login" onClick={forc}>
+                            Login
+                        </Link>{" "}
+                        |{" "}
                         <Link to="/login/Register" onClick={forc}>
                             Sign Up
                         </Link>

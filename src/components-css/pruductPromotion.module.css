@@ -42,7 +42,7 @@
 .container .right h3 {
     font-size: 4vw;
 }
-.container .right caption {
+.container .right p {
     text-align: left;
     font-size: 0.9vw;
     color: rgba(255, 255, 255, 0.726);

@@ -46,10 +46,14 @@ const Footer = () => {
             <div className={footerstyle.email}>
                 <h2>Subscribe To Our Email</h2>
                 <h1>For Lastest News & Updates</h1>
-                <div className={footerstyle.inputs}>
-                    <input type="email" name="sub" placeholder="Enter Your Email" />
-                    <button id="sub">Subscribe</button>
-                </div>
+                <form className={footerstyle.inputs}>
+                    <input
+                        type="email"
+                        name="sub"
+                        placeholder="Enter Your Email"
+                    />
+                    <input className={footerstyle.submit} type="submit" id="submitEmail" value="Subscribe" />
+                </form>
             </div>
         </footer>
     );
